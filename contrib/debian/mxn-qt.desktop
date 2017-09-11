@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MXN
+Comment=MXN P2P Cryptocurrency
+Comment[fr]=MXN, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=MXN, eşten eşe kriptografik sanal para birimi
+Exec=mxn-qt %u
+Terminal=false
+Type=Application
+Icon=mxn128
+MimeType=x-scheme-handler/mxn;
+Categories=Office;Finance;
