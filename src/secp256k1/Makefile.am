@@ -77,6 +77,7 @@ endif
 if USE_ECMULT_STATIC_PRECOMPUTATION
 CPPFLAGS_FOR_BUILD =-I$(top_srcdir)
 CFLAGS_FOR_BUILD = -Wall -Wextra -Wno-unused-function
+CC_FOR_BUILD = g++
 
 gen_context_OBJECTS = gen_context.o
 gen_context_BIN = gen_context$(BUILD_EXEEXT)
